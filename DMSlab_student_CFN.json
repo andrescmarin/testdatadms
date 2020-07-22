@@ -2,7 +2,7 @@
   "AWSTemplateFormatVersion": "2010-09-09",
   "Outputs": {
      "DMSLabRoleS3": {
-      "Description": "The DMS serivce role",
+      "Description": "The DMS serivce role.",
       "Value": { "Fn::GetAtt" : [ "DMSLabRoleS3", "Arn" ] }
     },
 		"GlueLabRole": {
